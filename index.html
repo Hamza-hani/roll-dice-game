@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roll a Dice Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section class="game">
+
+    <div class="players-container">
+      <div class="player player--0 player--active">
+        <h2 class="name" id="name--0">Player 1</h2>
+        <p class="score" id="score--0">0</p>
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p class="current-score" id="current--0">0</p>
+        </div>
+      </div>
+
+      <div class="player player--1">
+        <h2 class="name" id="name--1">Player 2</h2>
+        <p class="score" id="score--1">0</p>
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p class="current-score" id="current--1">0</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <img src="dice-5.png" alt="Dice" class="dice" />
+    <div class="controls">
+      <button class="btn btn--roll">Roll Dice</button>
+      <button class="btn btn--hold">Hold</button>
+      <button class="btn btn--new">New Game</button>
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <p>Developed by <strong>Hamza Kamran</strong></p>
+    <div class="social-links">
+      <a href="https://github.com/Hamza-hani" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/hamza-kamran-271872297/" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
